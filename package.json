@@ -1,0 +1,31 @@
+{
+  "name": "website-nuxt",
+  "version": "1.0.0",
+  "description": "My bee&#39;s knees Nuxt.js project",
+  "author": "Greg MacGregor",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc2.3",
+    "apollo-link-http": "^1.5.5",
+    "cross-env": "^5.2.0",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "nuxt": "^2.0.0",
+    "vue-markdown": "^2.2.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,11 @@
+query PostBySlug($slug: String!) {
+  post(where: { slug: $slug }) {
+    slug
+    title
+    coverImage {
+      handle
+    }
+    text
+    dateAndTime
+  }
+}
